@@ -101,6 +101,5 @@ def opacify(color, alpha=.5):
   else:
     return tuple(list(color)[:3] + [color[3]*alpha])
 
+import matplotlib.pyplot as plt
 from matplotlib.colors import hsv_to_rgb
-
-

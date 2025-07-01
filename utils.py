@@ -1,3 +1,6 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
 def sample_gaussian_data(n_samples, cov_eigvals, target_coeffs, noise_std=0):
 
     Phi = np.random.randn(n_samples, len(cov_eigvals))

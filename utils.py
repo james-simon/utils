@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
+import torch
 
 def sample_gaussian_data(n_samples, cov_eigvals, target_coeffs, noise_std=0):
 
